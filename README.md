@@ -16,7 +16,7 @@ A powerful AI agent capable of interacting with MySQL databases using natural la
 
 ## Architecture
 
-```mermaid
+```
 graph LR
     User[User] -- "Questions" --> Client[Main Client (main.py)]
     Client -- "MCP Protocol (Stdio)" --> Server[MCP Server (mcp_server.py)]
